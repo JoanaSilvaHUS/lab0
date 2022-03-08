@@ -1,8 +1,8 @@
 /**
- * Enumeração Size - escreva a descrição da enumeração aqui
+ * Enumeração Size - Tamanhos existentes
  * 
- * @author (seu nome aqui)
- * @version (número da versão ou data aqui)
+ * @author 202100242 e 202100190
+ * @version 08/03/2022
  */
 public enum Size
 {
@@ -15,6 +15,13 @@ public enum Size
     private final int maxValue;
     private final char code;
     
+    /**
+     * Criação do objeto Size
+     * @param minValue - Valor mínimo
+     * @param maxValue - Valor máximo
+     * @param description - Descrição
+     * @param code - Código
+     */
     private Size(int minValue, int maxValue, String description, char code)
     {
         this.description = description;
@@ -23,27 +30,47 @@ public enum Size
         this.code = code;
     }
     
+    /**
+     * Mostra em String a descrição do tamanho
+     * @return A descrição do tamanho
+     */
     @Override
     public String toString()
     {
         return this.description;
     }
     
+    /**
+     * Retorna a descrição do tamanho
+     * @return A descrição do tamanho
+     */
     public String getDescription()
     {
         return description;
     }
     
+    /**
+     * Retorna o valor mínimo do tamanho
+     * @return O valor mínimo do tamanho
+     */
     public int getMinValue()
     {
         return minValue;
     }
     
+    /**
+     * Retorna o valor máximo do tamanho
+     * @return O valor máximo do tamanho
+     */
     public int getMaxValue()
     {
         return maxValue;
     }
     
+    /**
+     * Retorna o código do tamanho
+     * @return O código do tamanho
+     */
     public char getCode()
     {
         return code;
