@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Size
+comment0.text=\r\n\ Enumera\u00E7\u00E3o\ Size\ -\ escreva\ a\ descri\u00E7\u00E3o\ da\ enumera\u00E7\u00E3o\ aqui\r\n\ \r\n\ @author\ (seu\ nome\ aqui)\r\n\ @version\ (n\u00FAmero\ da\ vers\u00E3o\ ou\ data\ aqui)\r\n
+comment1.params=minValue\ maxValue\ description\ code
+comment1.target=Size(int,\ int,\ java.lang.String,\ char)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment4.params=
+comment4.target=int\ getMinValue()
+comment5.params=
+comment5.target=int\ getMaxValue()
+comment6.params=
+comment6.target=char\ getCode()
+numComments=7
