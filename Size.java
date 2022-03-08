@@ -17,10 +17,10 @@ public enum Size
     
     private Size(int minValue, int maxValue, String description, char code)
     {
-        this.description=description;
-        this.minValue=minValue;
-        this.maxValue=maxValue;
-        this.code=code;
+        this.description = description;
+        this.minValue = minValue;
+        this.maxValue = maxValue;
+        this.code = code;
     }
     
     @Override
